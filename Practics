@@ -1,19 +1,7 @@
-<a href="https://aik84from.github.io/faq.html" target="_blank">часто задаваемых вопросов</a>
-<a https://youtu.be/IK6e1SFCdow?si=K62Zc0sf2NVKYF_p></a>
+https://youtu.be/IK6e1SFCdow?si=K62Zc0sf2NVKYF_p
 
-mysql> SHOW DATABASES;
+C:\>cd "Program files"
 
-mysql> CREATE DATABASE sql_course;
-
-mysql> DROPE DATABASES sql_course;
-
-mysql> CREATE DATABASE sql_course;
-
-mysql> SHOW DATABASES;
-
-mysql> USE sql_course;
-
-mysql> show tables;
 
 mysql> CREATE TABLE teacher(
     -> id INT AUTO_INCREMENT PRIMARY KEY,
