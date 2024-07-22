@@ -20,6 +20,20 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 
 
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| test_1             |
+| world              |
++--------------------+
+7 rows in set (0.00 sec)
+
 mysql> CREATE TABLE teacher(
     -> id INT AUTO_INCREMENT PRIMARY KEY,
     -> surname VARCHAR(255) NOT NULL
