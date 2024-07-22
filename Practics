@@ -34,6 +34,44 @@ mysql> SHOW DATABASES;
 +--------------------+
 7 rows in set (0.00 sec)
 
+mysql> CREATE DATABASE sql_course;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sql_course         |
+| sys                |
+| test_1             |
+| world              |
++--------------------+
+8 rows in set (0.00 sec)
+
+mysql> DROP DATABASE sql_course;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| test_1             |
+| world              |
++--------------------+
+7 rows in set (0.00 sec)
+
+
+
+
 mysql> CREATE TABLE teacher(
     -> id INT AUTO_INCREMENT PRIMARY KEY,
     -> surname VARCHAR(255) NOT NULL
