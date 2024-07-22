@@ -1,6 +1,8 @@
 https://youtu.be/IK6e1SFCdow?si=K62Zc0sf2NVKYF_p
 
 C:\>cd "Program files"
+C:\Program Files>cd MySQL
+
 
 
 mysql> CREATE TABLE teacher(
