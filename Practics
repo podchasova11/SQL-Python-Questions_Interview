@@ -739,6 +739,8 @@ CREATE TABLE lesson(
     -> teacher_id INT NOT NULL,
     -> FOREIGN KEY (teacher_id) references teacher(id)
     -> );
+
+INSERT INTO lesson (name, teacher_id) VALUES ("Математика", 1), ("Информатика", 1), ("Русский", 2), ("Физика", 3);
 	
 show tables;
 show columns from lesson;
