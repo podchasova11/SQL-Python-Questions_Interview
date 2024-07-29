@@ -1,6 +1,7 @@
 Вопрос :
 
-```class C:
+```
+class C:
     pass
 a=C()
 b=C()
