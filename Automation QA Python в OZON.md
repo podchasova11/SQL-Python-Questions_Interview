@@ -72,8 +72,9 @@
      ```
    - Используется для создания коротких функций на месте, например, в качестве аргумента для функций высшего порядка, таких как `map`, `filter`, и `sorted`.
 
- -  еще пример использования **Lambda**
-Example filter with lambda expression.
+ ## Еще пример использования **Lambda function**
+ -  Example filter with lambda expression.
+
  ### filter
  filter(function, iterable) # function must return True or False
  ```python
