@@ -71,14 +71,20 @@
      print(add(2, 3))  # Output: 5
      ```
    - Используется для создания коротких функций на месте, например, в качестве аргумента для функций высшего порядка, таких как `map`, `filter`, и `sorted`.
-  
-```python
-input_list = ['Delhi', 'Mumbai', 'Noida, 'Gurugram']
-to_match = 'Gurugram'
 
-matched_list = list(filter(lambda item: item == to_match, input_list))
-matched_list # ['Gurugram']
+ -  еще пример использования **Lambda**
+Example filter with lambda expression.
+ ### filter
+ filter(function, iterable) # function must return True or False
+ ```python
+ input_list = ['Delhi', 'Mumbai', 'Noida, 'Gurugram']
+ to_match = 'Gurugram'
+ 
+ matched_list = list(filter(lambda item: item == to_match, input_list))
+ matched_list # ['Gurugram']
  ```
+For every single item in the input_list, the condition is checked in the lambda function which returns either True or False.
+
 
 8. **Как вы работаете с исключениями и как создаете свои собственные исключения?**
    - **Обработка исключений**:
