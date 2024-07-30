@@ -71,6 +71,14 @@
      print(add(2, 3))  # Output: 5
      ```
    - Используется для создания коротких функций на месте, например, в качестве аргумента для функций высшего порядка, таких как `map`, `filter`, и `sorted`.
+  
+```python
+input_list = ['Delhi', 'Mumbai', 'Noida, 'Gurugram']
+to_match = 'Gurugram'
+
+matched_list = list(filter(lambda item: item == to_match, input_list))
+matched_list # ['Gurugram']
+ ```
 
 8. **Как вы работаете с исключениями и как создаете свои собственные исключения?**
    - **Обработка исключений**:
