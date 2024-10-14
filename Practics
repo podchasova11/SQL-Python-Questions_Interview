@@ -995,3 +995,4 @@ SELECT age, COUNT(age) FROM teacher GROUP BY age;
 
 
 
+
